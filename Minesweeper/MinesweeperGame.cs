@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class MinesweeperGame
+public class MinesweeperGame
 {
-    private char[,] board;
-    private List<int[]> mines;
-    private int[] playerPos;
-    private int lives;
-    private int moves;
+    public char[,] board;
+    public List<int[]> mines;
+    public int[] playerPos;
+    public int lives;
+    public int moves;
 
     public MinesweeperGame()
     {
